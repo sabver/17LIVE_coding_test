@@ -1,3 +1,41 @@
+# 初めに
+
+17LIVEの皆さん、貴重なCoding testのチャンスをいただいて、誠にありがとうございます！
+Thanks to 17LIVE for giving me this opportunity to coding test！
+非常感谢17LIVE可以给我这次coding test的机会！
+
+# src code structure
+```bash
+├── App.test.tsx
+├── App.tsx
+├── components              -- common components
+│   ├── Avatar
+│   │   └── index.tsx
+│   ├── Item                -- If the project is bigger, I usually put this component under the features directory
+│   │   └── index.tsx
+│   ├── Score
+│   │   └── index.tsx
+│   └── Welcome
+│       ├── Welcome.css
+│       ├── index.tsx
+│       └── logo.svg
+├── index.css
+├── index.tsx
+├── pages                   -- page entrance
+│   └── home
+│       └── index.tsx
+├── react-app-env.d.ts
+├── reportWebVitals.ts
+├── services                -- http services entrance
+│   └── index.ts
+├── setupTests.ts
+├── styles                  -- common styled-components components
+│   └── index.ts
+└── types
+    ├── index.ts            -- definition of typescript interface
+    └── magic_number.ts     -- definition of various parameters
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
