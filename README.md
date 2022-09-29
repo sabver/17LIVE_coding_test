@@ -1,7 +1,9 @@
 # 初めに
 
 17LIVEの皆さん、貴重なCoding testのチャンスをいただいて、誠にありがとうございます！
+
 Thanks to 17LIVE for giving me this opportunity to coding test！
+
 非常感谢17LIVE可以给我这次coding test的机会！
 
 # src code structure
